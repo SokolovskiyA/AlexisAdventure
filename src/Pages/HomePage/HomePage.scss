@@ -1,0 +1,27 @@
+@use '../../Style/Fonts.scss' as *;
+@use '../../Style/Colors.scss' as *;
+
+.HomePage {
+    background-image: url("../../Assets/Images/thread1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    &__logo {
+        width: 800px;
+        margin: 3rem auto;
+    }
+    &__arrow {
+        width: 47%;
+        margin: 0 5rem;
+    }
+    &__link {
+        color: $Yellow;
+        align-self: center;
+    }
+    &__subhead {
+        color: $Yellow;
+        align-self: center;
+        margin-top: 4rem;
+    }
+}
