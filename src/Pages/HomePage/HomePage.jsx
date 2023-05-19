@@ -1,7 +1,7 @@
 import React from 'react'
 import './HomePage.scss'
-import logo from '../../Assets/Images/logo.png'
-import arrow from '../../Assets/Images/Arrow.png'
+import logo from '../../assets/Images/logo.png'
+import arrow from '../../assets/Images/Arrow.png'
 import { Link } from 'react-router-dom'
 
 function HomePage() {
