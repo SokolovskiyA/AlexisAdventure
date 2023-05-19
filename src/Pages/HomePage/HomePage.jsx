@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomePage.scss'
-import logo from '../../Assets/Images/logo4.png'
+import logo from '../../Assets/Images/logo.png'
 import arrow from '../../Assets/Images/Arrow.png'
 import { Link } from 'react-router-dom'
 
