@@ -1,0 +1,8 @@
+@use '../../Style/Colors.scss' as *;
+@use '../../Style/Fonts.scss' as *;
+
+.shopping {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,26 @@
+@use '../../Style/Colors.scss' as *;
+@use '../../Style/Fonts.scss' as *;
+
+.item {
+    background-color: $White;
+    width: 45%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem 8rem 2rem;
+    position: relative;
+    &__name{
+        font-size: 2.5rem;
+    }
+    &__price {
+        color: black;
+        font-size: 1.5rem;
+        position: absolute;
+        bottom: 2rem;
+        left: 2rem;
+    }
+    &__picture {
+        width: 90%;
+    }
+}
