@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     &__logo {
         width: 800px;
         margin: 3rem auto;
@@ -23,5 +24,9 @@
         color: $Yellow;
         align-self: center;
         margin-top: 4rem;
+    }
+    &__title {
+        margin: auto;
+        color: $Yellow;
     }
 }
