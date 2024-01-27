@@ -2,31 +2,29 @@
 @use '../../Style/Colors.scss' as *;
 
 .HomePage {
-    background-image: url("../../assets/Images/thread1.jpg");
-    background-size: cover;
+    padding-top: 4rem;
+    background-color: $MainBackground;
+    background-image: url('../../assets/Images/thread1.jpg');
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     &__logo {
         width: 800px;
-        margin: 3rem auto;
     }
     &__arrow {
         width: 47%;
-        margin: 0 5rem;
     }
     &__link {
-        color: $Yellow;
+        color: yellow;
         align-self: center;
     }
     &__subhead {
-        color: $Yellow;
+        color: yellow;
         align-self: center;
-        margin-top: 4rem;
     }
     &__title {
         margin: auto;
-        color: $Yellow;
+        color: yellow;
     }
 }

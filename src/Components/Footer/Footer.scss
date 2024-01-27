@@ -1,0 +1,13 @@
+@use '../../Style/Colors.scss' as *;
+@use '../../Style/Fonts.scss' as *;
+
+
+.footer {
+    background-color: $MainDark;
+    color: $MainLight;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

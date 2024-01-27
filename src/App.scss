@@ -1,28 +1,13 @@
 @use './Style/Fonts.scss' as *;
 @use './Style/Colors.scss' as *;
 
+//
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-h1, header {
-    font-family: 'Anton';
-    font-size: 4rem;
-    margin: 2rem;
-    letter-spacing: 0.1rem;
-}
-h2 {
-    font-family: 'Anton';
-    font-size: 3rem;
-    margin: 2rem;
-}
-
-p {
-    font-family: 'Anton';
-    font-size: 1.75rem;
-    text-align: center;
-    color: #ffff;
+    margin-block-start: 0;
 }

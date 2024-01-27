@@ -1,0 +1,32 @@
+@use '../../Style/Colors.scss' as *;
+
+
+.navbar {
+    font-family: 'anton', sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: $MainLight;
+    opacity: 0.95;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    &__logo {
+        height: 80px;
+    }
+    &__logo_link {
+        margin: 0.5rem auto 0.5rem 2rem
+    }
+    &__link {
+        color: $MainDark;
+        text-transform: uppercase;
+        margin: 0 1rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+}
+.active {
+    color: $SeconderyDark;
+
+}

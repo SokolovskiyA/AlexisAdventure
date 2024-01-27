@@ -2,6 +2,9 @@ import React from 'react';
 import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';  
 import HomePage from './Pages/HomePage/HomePage.jsx'
+import Store from './Pages/Store/Store.jsx';
+import ContactPage from './Pages/ContactPage/ContactPage.jsx';
+import Rent from './Pages/Rent/Rent.jsx';
 
 
 
@@ -11,8 +14,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage/>} />
-          <Route path="/about" element={<h1>About</h1>} />
-          <Route path="/contact" element={<h1>Contact</h1>} />
+          <Route path="/store" element={<Store/>} />
+          <Route path="/rent" element={<Rent/>} />
+          <Route path="/contact" element={<ContactPage/>} />
         </Routes>
       </BrowserRouter>
 
