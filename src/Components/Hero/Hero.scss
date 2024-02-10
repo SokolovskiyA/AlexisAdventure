@@ -1,0 +1,21 @@
+
+
+.hero {
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    &__head {
+        color: white;
+        text-align: center;
+        font-family: 'anton';
+        text-transform: uppercase;
+        width: 50%;
+        text-align: center;
+        margin: 2rem 2rem 2rem auto;
+    }
+}

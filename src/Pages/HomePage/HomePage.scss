@@ -2,29 +2,5 @@
 @use '../../Style/Colors.scss' as *;
 
 .HomePage {
-    padding-top: 4rem;
     background-color: $MainBackground;
-    background-image: url('../../assets/Images/thread1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    &__logo {
-        width: 800px;
-    }
-    &__arrow {
-        width: 47%;
-    }
-    &__link {
-        color: yellow;
-        align-self: center;
-    }
-    &__subhead {
-        color: yellow;
-        align-self: center;
-    }
-    &__title {
-        margin: auto;
-        color: yellow;
-    }
 }

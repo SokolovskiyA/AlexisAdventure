@@ -5,6 +5,7 @@ import HomePage from './Pages/HomePage/HomePage.jsx'
 import Store from './Pages/Store/Store.jsx';
 import ContactPage from './Pages/ContactPage/ContactPage.jsx';
 import Rent from './Pages/Rent/Rent.jsx';
+import Checkout from './Pages/Checkout/Checkout.jsx';
 
 
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/store" element={<Store/>} />
+          <Route path="/store/checkout" element={<Checkout/>} />
           <Route path="/rent" element={<Rent/>} />
           <Route path="/contact" element={<ContactPage/>} />
         </Routes>
